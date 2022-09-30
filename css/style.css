@@ -1,0 +1,30 @@
+/* stile responsive-first */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.sq {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	margin: .5rem;
+}
+
+@media screen and (min-width: 235px) {
+	.container {
+		display: flex;
+	}
+
+	.sq {
+		background-color: salmon;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.sq {
+		background-color: gold;
+	}
+}
